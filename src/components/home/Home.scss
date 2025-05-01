@@ -1,0 +1,18 @@
+@use '../../styles/variables' as *;
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+    .section-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #2C3E50;
+
+        h1 {
+            color: #F0F0F0;
+        }
+    }
+}
