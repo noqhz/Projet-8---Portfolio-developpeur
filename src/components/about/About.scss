@@ -1,14 +1,6 @@
-@use '../../styles/variables' as *;
 
-.about {
-  margin-top: $header-height;
-    &-header {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: rgb(184, 184, 184);
-    }
-    &-content {
+#about {
+    .about-content {
       display: flex;
       flex-direction: column;
       align-items: center;

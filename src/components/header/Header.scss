@@ -1,13 +1,16 @@
 header {
   background-color: #282c34;
-  padding: 1rem;
-  position: fixed;
+  padding: 1.5rem 1rem;
+  position: sticky;
   top: 0;
   width: 100%;
   z-index: 1000;
   display: flex;
   justify-content: center;
-  height: 30px;
+  align-items: center;
+  height: auto;
+  box-sizing: border-box;
+  overflow-x: hidden;
 
   button {
     background-color: #282c34;

@@ -5,7 +5,7 @@ import projectData from '../../data/projets.json';
 
 function Projets() {
   return (
-    <section className="projets">
+    <section id="projets">
 
       <div className="section-header">
         <h1>Mes projets</h1>
