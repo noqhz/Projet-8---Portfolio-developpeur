@@ -12,9 +12,14 @@ function Header() {
         </ul>
       </nav>
       <a href="#top">
-        <button aria-label="Retour en haut">
+        <button aria-label="Haut de la page">
           ↑
         </button>
+      </a>
+      <a href="#bottom">
+          <button aria-label="Bas de la page">
+            ↓
+          </button>
       </a>
     </header>
   );

@@ -16,10 +16,3 @@
         }
     }
 }
-
-section::before {
-    content: '';
-    display: block;
-    height: 30px;
-    margin-top: -30px;
-  }

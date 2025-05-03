@@ -1,32 +1,32 @@
 [
-    {
-      "image": "https://via.placeholder.com/300x200",
-      "title": "Page d'accueil d'une agence de voyage",
-      "description": "HTML, CSS",
-      "link": "#"
-    },
-    {
-      "image": "https://via.placeholder.com/300x200",
-      "title": "Page web dynamique avec JavaScript",
-      "description": "HTML, CSS, JavaScript",
-      "link": "#"
-    },
-    {
-      "image": "https://via.placeholder.com/300x200",
-      "title": "Débug et optimisation d'un site de photographe",
-      "description": "technologies : ...",
-      "link": "#"
-    },
-    {
-      "image": "https://via.placeholder.com/300x200",
-      "title": "Application web de location immobilière",
-      "description": "React, SCSS",
-      "link": "#"
-    },
-    {
-      "image": "https://via.placeholder.com/300x200",
-      "title": "Back-end d'un site de notation de livres",
-      "description": "Node JS, Express, MongoDB",
-      "link": "#"
-    }
-  ]
+  {
+    "image": "booki.png",
+    "title": "Page d'accueil d'une agence de voyage",
+    "description": "Objectifs :\nImplémenter une interface responsive avec HTML et CSS\nIntégrer du contenu conformément à une maquette avec HTML et CSS\nVersionner un projet avec Git et Github",
+    "link": "https://github.com/noqhz/Projet-2---agence-voyage"
+  },
+  {
+    "image": "booki.png",
+    "title": "Page web dynamique avec JavaScript",
+    "description": "HTML, CSS, JavaScript",
+    "link": "#"
+  },
+  {
+    "image": "booki.png",
+    "title": "Débug et optimisation d'un site de photographe",
+    "description": "technologies : ...",
+    "link": "#"
+  },
+  {
+    "image": "booki.png",
+    "title": "Application web de location immobilière",
+    "description": "React, SCSS",
+    "link": "#"
+  },
+  {
+    "image": "booki.png",
+    "title": "Back-end d'un site de notation de livres",
+    "description": "Node JS, Express, MongoDB",
+    "link": "#"
+  }
+]

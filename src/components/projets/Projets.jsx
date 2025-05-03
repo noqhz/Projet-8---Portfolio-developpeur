@@ -1,4 +1,3 @@
-import React from 'react';
 import './Projets.scss';
 import Card from '../card/Card';
 import projectData from '../../data/projets.json';
@@ -15,7 +14,7 @@ function Projets() {
         {projectData.map((projet, index) => (
           <Card
             key={index}
-            image={projet.image}
+            image={require(`../../images/${projet.image}`)}
             title={projet.title}
             description={projet.description}
             link={projet.link}

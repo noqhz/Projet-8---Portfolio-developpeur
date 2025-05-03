@@ -13,6 +13,7 @@ function Footer() {
           Linkedin
         </a>
       </div>
+      <div id="bottom"></div>
     </footer>
   );
 }

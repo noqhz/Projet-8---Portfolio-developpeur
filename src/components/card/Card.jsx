@@ -14,7 +14,7 @@ function Card({ image, title, description, link }) {
         <img src={image} alt={title} className="card-image" />
         <div className="card-content">
           <h2 className="card-title">{title}</h2>
-          <p className="card-description">{description}</p>
+          <p className="card-description">technologies</p>
         </div>
       </div>
 
