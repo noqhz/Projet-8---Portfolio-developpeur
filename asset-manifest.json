@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/Projet-8---Portfolio-developpeur/static/css/main.89cc915d.css",
-    "main.js": "/Projet-8---Portfolio-developpeur/static/js/main.f9798bd5.js",
+    "main.css": "/Projet-8---Portfolio-developpeur/static/css/main.4eaa680f.css",
+    "main.js": "/Projet-8---Portfolio-developpeur/static/js/main.bd9f151f.js",
     "static/js/453.a2ae6e5b.chunk.js": "/Projet-8---Portfolio-developpeur/static/js/453.a2ae6e5b.chunk.js",
     "static/media/jf-profile.jpg": "/Projet-8---Portfolio-developpeur/static/media/jf-profile.a0dbf7c37ac86ad1ba4f.jpg",
     "static/media/booki.png": "/Projet-8---Portfolio-developpeur/static/media/booki.2f0e081d5b3505ae9bb2.png",
     "static/media/JulienFRITSCH_CV.pdf": "/Projet-8---Portfolio-developpeur/static/media/JulienFRITSCH_CV.002c102817a226341ae6.pdf",
     "index.html": "/Projet-8---Portfolio-developpeur/index.html",
-    "main.89cc915d.css.map": "/Projet-8---Portfolio-developpeur/static/css/main.89cc915d.css.map",
-    "main.f9798bd5.js.map": "/Projet-8---Portfolio-developpeur/static/js/main.f9798bd5.js.map",
+    "static/media/Github.svg": "/Projet-8---Portfolio-developpeur/static/media/Github.22e65707326e3e1e37afd21c5334995a.svg",
+    "static/media/Linkedin.svg": "/Projet-8---Portfolio-developpeur/static/media/Linkedin.6c4cf675bac00f660170b1e417dc1102.svg",
+    "static/media/Phone.svg": "/Projet-8---Portfolio-developpeur/static/media/Phone.dc807bcec0cc28e131a2850058a11dd8.svg",
+    "static/media/Mail.svg": "/Projet-8---Portfolio-developpeur/static/media/Mail.0f121a27c547576e81dd31842b443d32.svg",
+    "main.4eaa680f.css.map": "/Projet-8---Portfolio-developpeur/static/css/main.4eaa680f.css.map",
+    "main.bd9f151f.js.map": "/Projet-8---Portfolio-developpeur/static/js/main.bd9f151f.js.map",
     "453.a2ae6e5b.chunk.js.map": "/Projet-8---Portfolio-developpeur/static/js/453.a2ae6e5b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.89cc915d.css",
-    "static/js/main.f9798bd5.js"
+    "static/css/main.4eaa680f.css",
+    "static/js/main.bd9f151f.js"
   ]
 }
