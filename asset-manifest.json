@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Projet-8---Portfolio-developpeur/static/css/main.7aaf2d31.css",
-    "main.js": "/Projet-8---Portfolio-developpeur/static/js/main.ff40b4a6.js",
+    "main.css": "/Projet-8---Portfolio-developpeur/static/css/main.89cc915d.css",
+    "main.js": "/Projet-8---Portfolio-developpeur/static/js/main.f9798bd5.js",
     "static/js/453.a2ae6e5b.chunk.js": "/Projet-8---Portfolio-developpeur/static/js/453.a2ae6e5b.chunk.js",
     "static/media/jf-profile.jpg": "/Projet-8---Portfolio-developpeur/static/media/jf-profile.a0dbf7c37ac86ad1ba4f.jpg",
     "static/media/booki.png": "/Projet-8---Portfolio-developpeur/static/media/booki.2f0e081d5b3505ae9bb2.png",
     "static/media/JulienFRITSCH_CV.pdf": "/Projet-8---Portfolio-developpeur/static/media/JulienFRITSCH_CV.002c102817a226341ae6.pdf",
     "index.html": "/Projet-8---Portfolio-developpeur/index.html",
-    "main.7aaf2d31.css.map": "/Projet-8---Portfolio-developpeur/static/css/main.7aaf2d31.css.map",
-    "main.ff40b4a6.js.map": "/Projet-8---Portfolio-developpeur/static/js/main.ff40b4a6.js.map",
+    "main.89cc915d.css.map": "/Projet-8---Portfolio-developpeur/static/css/main.89cc915d.css.map",
+    "main.f9798bd5.js.map": "/Projet-8---Portfolio-developpeur/static/js/main.f9798bd5.js.map",
     "453.a2ae6e5b.chunk.js.map": "/Projet-8---Portfolio-developpeur/static/js/453.a2ae6e5b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7aaf2d31.css",
-    "static/js/main.ff40b4a6.js"
+    "static/css/main.89cc915d.css",
+    "static/js/main.f9798bd5.js"
   ]
 }
