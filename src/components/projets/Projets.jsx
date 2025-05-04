@@ -14,7 +14,7 @@ function Projets() {
         {projectData.map((projet, index) => (
           <Card
             key={index}
-            image={require(`../../images/${projet.image}`)}
+            image={require(`../../images/projets/${projet.image}`)}
             title={projet.title}
             description={projet.description}
             link={projet.link}
