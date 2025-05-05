@@ -1,32 +1,37 @@
 [
   {
-    "image": "booki.png",
+    "images": ["p2_1.png", "p2_2.png", "p2_3.png"],
     "title": "Page d'accueil d'une agence de voyage",
-    "description": "Objectifs :\nImplémenter une interface responsive avec HTML et CSS\nIntégrer du contenu conformément à une maquette avec HTML et CSS\nVersionner un projet avec Git et Github",
+    "tools": "HTML, CSS",
+    "description": "Implémenter une interface responsive avec HTML et CSS\nIntégrer du contenu conformément à une maquette avec HTML et CSS\nVersionner un projet avec Git et Github",
     "link": "https://github.com/noqhz/Projet-2---agence-voyage"
   },
   {
-    "image": "booki.png",
+    "images": ["p3_1.png", "p3_2.png", "p3_3.png", "p3_4.png"],
     "title": "Page web dynamique avec JavaScript",
-    "description": "HTML, CSS, JavaScript",
-    "link": "#"
+    "tools": "HTML, CSS, JavaScript",
+    "description": "blablabla",
+    "link": "https://github.com/noqhz/Projet-3---site-architecte"
   },
   {
-    "image": "booki.png",
+    "images": ["p4_1.png", "p4_2.png", "p4_3.png"],
     "title": "Débug et optimisation d'un site de photographe",
-    "description": "technologies : ...",
-    "link": "#"
+    "tools":"SEO, Accessibilité, Performances",
+    "description": "blablabla",
+    "link": "https://github.com/noqhz/Projet-4---debug-site-photographe"
   },
   {
-    "image": "booki.png",
+    "images": ["p5_1.png", "p5_2.png", "p5_3.png"],
     "title": "Application web de location immobilière",
-    "description": "React, SCSS",
-    "link": "#"
+    "tools": "React, SCSS",
+    "description": "blablabla",
+    "link": "https://github.com/noqhz/Projet-5---Creez-une-application-web-de-location-immobiliere-avec-React"
   },
   {
-    "image": "booki.png",
+    "images": ["p6_1.png", "p6_2.png", "p6_3.png"],
     "title": "Back-end d'un site de notation de livres",
-    "description": "Node JS, Express, MongoDB",
-    "link": "#"
+    "tools": "Node JS, Express, MongoDB",
+    "description": "blablabla",
+    "link": "https://github.com/noqhz/Projet-6---Developpez-le-back-end-d-un-site-de-notation-de-livres"
   }
 ]

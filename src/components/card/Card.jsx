@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import Modal from '../modal/Modal';
 import './Card.scss';
+import Slideshow from '../slideshow/Slideshow';
 
-function Card({ image, title, description, link }) {
+function Card({ image, images, title, description, link, tools }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleOpenModal = () => setIsModalOpen(true);
@@ -14,7 +15,7 @@ function Card({ image, title, description, link }) {
         <img src={image} alt={title} className="card-image" />
         <div className="card-content">
           <h2 className="card-title">{title}</h2>
-          <p className="card-description">technologies</p>
+          <p className="card-description">{tools}</p>
         </div>
       </div>
 
@@ -23,6 +24,7 @@ function Card({ image, title, description, link }) {
         onClose={handleCloseModal}
         content={
           <div>
+            <Slideshow images={images} />
             <h2>{title}</h2>
             <p>{description}</p>
             <a href={link} target="_blank" rel="noopener noreferrer">
