@@ -19,20 +19,46 @@
   }
   
   .modal-content {
-    background: white;
+    background: #e4e4e4;
     padding: 2rem;
+    padding-top: 1rem;
     border-radius: 8px;
     width: 900px;
     height: 700px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
     box-sizing: border-box;
+    text-align: center;
     transform: translateX(-1500px);
     animation: roadRunnerIn 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
 
     &.out {
         animation: roadRunnerOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
     }
+
+    h2 {
+        color: #2c3e50;
+    }
+
+    a {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 40px;
+        background-color: #2c3e50;
+        color: #fff;
+        border-radius: 10px;
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: 600;
+        white-space: nowrap;
+        transition: background-color 0.3s ease;
+    
+        &:hover {
+          background-color: #7f92a7;
+        }
+      }
   }
  
   .modal-close {

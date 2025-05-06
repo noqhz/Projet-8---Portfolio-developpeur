@@ -23,12 +23,12 @@ function Card({ image, images, title, description, link, tools }) {
         isOpen={isModalOpen}
         onClose={handleCloseModal}
         content={
-          <div>
-            <Slideshow images={images} />
+          <div className=''>
             <h2>{title}</h2>
+            <Slideshow images={images} />
             <p>{description}</p>
             <a href={link} target="_blank" rel="noopener noreferrer">
-              Voir le projet
+              Repo Github
             </a>
           </div>
         }

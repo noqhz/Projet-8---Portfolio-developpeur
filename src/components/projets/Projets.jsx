@@ -14,8 +14,11 @@ function Projets() {
         {projectData.map((projet, index) => (
           <Card
             key={index}
-            image={require(`../../images/projets/${projet.images[0]}`)} // image principale
-            images={projet.images.map((img) => require(`../../images/projets/${img}`))} // tableau
+            image={require(`../../images/projets/${projet.images[0].src}`)} // image principale pour card
+            images={projet.images.map((img) => ({
+              src: require(`../../images/projets/${img.src}`),
+              name: img.name
+            }))} // tableau pour slideshow modale
             title={projet.title}
             tools={projet.tools}
             description={projet.description}

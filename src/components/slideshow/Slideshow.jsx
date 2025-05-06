@@ -3,28 +3,46 @@ import './Slideshow.scss';
 
 function Slideshow({ images }) {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isFullscreen, setIsFullscreen] = useState(false);
 
-  const nextImage = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-  };
-
-  const prevImage = () => {
-    setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
+  const toggleFullscreen = () => {
+    setIsFullscreen(!isFullscreen);
   };
 
   return (
-    <div className="slideshow">
-      <button className="prev-button" onClick={prevImage}>
-        &lt;
-      </button>
-      <img
-        src={images[currentIndex]}
-        alt={`Slide ${currentIndex + 1}`}
-        className="slideshow-image"
-      />
-      <button className="next-button" onClick={nextImage}>
-        &gt;
-      </button>
+    <div className={`slideshow ${isFullscreen ? 'fullscreen' : ''}`}>
+      <div className="slideshow-main">
+        <img
+          src={images[currentIndex].src}
+          alt={`Slide ${currentIndex + 1}`}
+          className="main-image"
+          onClick={toggleFullscreen}
+        />
+      </div>
+      {!isFullscreen && (
+        <div className="slideshow-infos">
+          <div className="slideshow-description">
+            <p className="image-name">{images[currentIndex].name}</p>
+            <p>(cliquez sur l'image pour l'agrandir)</p>
+          </div>
+          <div className="slideshow-thumbnails">
+            {images.map((image, index) => (
+              <img
+                key={index}
+                src={image.src}
+                alt={`Thumbnail ${index + 1}`}
+                className={`thumbnail ${index === currentIndex ? 'active' : ''}`}
+                onClick={() => setCurrentIndex(index)}
+              />
+            ))}
+          </div>
+        </div>
+      )}
+      {isFullscreen && (
+        <button className="close-fullscreen" onClick={toggleFullscreen}>
+          ➜
+        </button>
+      )}
     </div>
   );
 }
