@@ -21,7 +21,7 @@ function About() {
             >
               OpenClassrooms
             </a>
-            {' '}<br />dans laquelle j'ai appris différents langages et technologies web à travers différents projets.
+            {' '}dans laquelle j'ai appris différents langages et technologies web à travers différents projets.
           </p>
         <p>
           <br />Je suis à la recherche d'un poste de développeur front-end afin d'approfondir

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Modal from '../modal/Modal';
 import './Card.scss';
 import Slideshow from '../slideshow/Slideshow';
+import ReactMarkdown from 'react-markdown';
 
 function Card({ image, images, title, description, link, tools }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -26,8 +27,19 @@ function Card({ image, images, title, description, link, tools }) {
           <div className=''>
             <h2>{title}</h2>
             <Slideshow images={images} />
-            <p>{description}</p>
-            <a href={link} target="_blank" rel="noopener noreferrer">
+            <ReactMarkdown
+              components={{
+                p: ({node, ...props}) => <p className="modal-markdown" {...props} />,
+                a: ({ node, children, ...props }) => (
+                  <a {...props} target="_blank" rel="noopener noreferrer">
+                    {children}
+                  </a>
+                )
+              }}
+            >
+              {description}
+          </ReactMarkdown>
+            <a href={link} className="projet-link" target="_blank" rel="noopener noreferrer">
               Repo Github
             </a>
           </div>

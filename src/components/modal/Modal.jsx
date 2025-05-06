@@ -21,7 +21,7 @@ function Modal({ isOpen, onClose, content }) {
         onClick={(e) => e.stopPropagation()}
       >
         <button className="modal-close" onClick={onClose} aria-label="Fermer la modale">
-          &times;
+          ✖
         </button>
         {content}
       </div>

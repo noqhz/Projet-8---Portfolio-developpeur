@@ -7,7 +7,7 @@
     ],
     "title": "Page d'accueil d'une agence de voyage",
     "tools": "HTML, CSS",
-    "description": "Implémenter une interface responsive avec HTML et CSS\nIntégrer du contenu conformément à une maquette avec HTML et CSS\nVersionner un projet avec Git et Github",
+    "description": "Projet qui a pour but d'implémenter une interface responsive avec HTML et CSS, conformément à une maquette figma.\nLa page d'accueil présente une version desktop, une version tablette, et une version mobile.\n [-> Voir ce projet en ligne](https://noqhz.github.io/Projet-2---agence-voyage/)",
     "link": "https://github.com/noqhz/Projet-2---agence-voyage"
   },
   {
@@ -17,42 +17,42 @@
       { "src": "p3_3.png", "name": "Modale : ajout de projets" },
       { "src": "p3_4.png", "name": "Interface swagger (back-end)" }
     ],
-    "title": "Page web dynamique avec JavaScript",
+    "title": "Site d'architecte dynamique avec JavaScript",
     "tools": "HTML, CSS, JavaScript",
-    "description": "blablabla",
+    "description": "Projet orienté Javascript : récupération de données via une API, affichage dynamique, modale d'ajout & suppression de travaux.\n Gestion d'événements utilisateurs + manipulation des éléments du DOM.",
     "link": "https://github.com/noqhz/Projet-3---site-architecte"
   },
   {
     "images": [
-      { "src": "p4_1.png", "name": "Page d'accueil à optimiser" },
+      { "src": "p4_1.png", "name": "Site à débugger" },
       { "src": "p4_2.png", "name": "Rapport Ligthouse avant optimisation" },
       { "src": "p4_3.png", "name": "Rapport WAVE avant/après" }
     ],
     "title": "Débug et optimisation d'un site de photographe",
     "tools":"SEO, Accessibilité, Performances",
-    "description": "blablabla",
+    "description": "Optimisation d'un site web après analyse Lighthouse et WAVE.\n Amélioration des performances, de l'accessibilité, du SEO, du référencement, balises meta pour les réseaux sociaux (+ rapport d'intervention).\n [-> Voir ce projet en ligne](https://noqhz.github.io/Projet-4---debug-site-photographe/)",  
     "link": "https://github.com/noqhz/Projet-4---debug-site-photographe"
   },
   {
     "images": [
       { "src": "p5_1.png", "name": "Page d'accueil - annonces sous forme de cards" },
-      { "src": "p5_2.png", "name": "Page logement : composants slideshow, collapse, tags" },
+      { "src": "p5_2.png", "name": "Page logement : composants slideshow, collapse" },
       { "src": "p5_3.png", "name": "Page à propos : composants banner, collapse" }
     ],
     "title": "Application web de location immobilière",
     "tools": "React, SCSS",
-    "description": "blablabla",
+    "description": "Application React (Vite) avec composants réutilisables.\n Utilisation de props, state, hooks, router. Données récupérées depuis un fichier JSON, styling avec SCSS.\n [-> Voir ce projet en ligne](https://noqhz.github.io/Projet-5---Creez-une-application-web-de-location-immobiliere-avec-React/)",
     "link": "https://github.com/noqhz/Projet-5---Creez-une-application-web-de-location-immobiliere-avec-React"
   },
   {
     "images": [
       { "src": "p6_1.png", "name": "Page d'accueil : affichage des livres" },
       { "src": "p6_2.png", "name": "Modification et/ou suppression de livres" },
-      { "src": "p6_3.png", "name": "Base de données sur MongoDB Atlas (schéma book)" }
+      { "src": "p6_3.png", "name": "Base de données MongoDB Atlas (schéma book)" }
     ],
     "title": "Back-end d'un site de notation de livres",
-    "tools": "Node JS, Express, MongoDB",
-    "description": "blablabla",
+    "tools": "Node.js, Express, MongoDB",
+    "description": "Création d'une API REST avec Node.js, Express et base de données MongoDB Atlas.\n Architecture MVC, opérations CRUD, authentification utilisateur avec JWT, gestion de fichiers avec Multer et sharp.",
     "link": "https://github.com/noqhz/Projet-6---Developpez-le-back-end-d-un-site-de-notation-de-livres"
   }
 ]
