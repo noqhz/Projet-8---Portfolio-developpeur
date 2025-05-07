@@ -1,3 +1,5 @@
+@use '../../styles/variables' as *;
+
 .slideshow {
   position: relative;
   display: flex;
@@ -9,7 +11,7 @@
 
   .slideshow-main {
     position: relative;
-    border: 2px solid #526f8d;
+    border: 2px solid $color-cards;
 
     .main-image {
       width: 600px;
@@ -30,7 +32,7 @@
     width: 900px;
     height: 700px;
     border-radius: 8px;
-    background-color: #e4e4e4;
+    background-color: $color-modal;
   
     .main-image {
       width: auto; 
@@ -47,7 +49,7 @@
       background: none;
       border: none;
       font-size: 30px;
-      color: #526f8d;
+      color: $color-cards;
       cursor: pointer;
       transform: rotate(180deg);
     }
@@ -67,7 +69,7 @@
 
       .image-name {
         font-size: 16px;
-        color: #2c3e50;
+        color: $color-base;
         font-weight: 600;
         text-align: center;
       }
@@ -93,7 +95,7 @@
       &.active {
         opacity: 1;
         transform: scale(1.1);
-        border: 2px solid #526f8d;
+        border: 2px solid $color-cards;
       }
   
       &:hover {

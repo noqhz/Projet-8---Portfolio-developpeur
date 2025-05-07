@@ -23,7 +23,7 @@ function Slideshow({ images }) {
         <div className="slideshow-infos">
           <div className="slideshow-description">
             <p className="image-name">{images[currentIndex].name}</p>
-            <p>(cliquez sur l'image pour l'agrandir)</p>
+            <p>(cliquer sur l'image pour l'agrandir)</p>
           </div>
           <div className="slideshow-thumbnails">
             {images.map((image, index) => (

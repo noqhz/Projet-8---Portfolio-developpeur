@@ -3,16 +3,22 @@
 #main-container {
     display: flex;
     flex-direction: column;
+    max-width: $desktop;
     margin: 0 auto;
 
     .section-header {
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #2C3E50;
+        background-color: $color-base;
+        width: 100vw;
+        max-width: none;
+        margin-left: calc(-50vw + 50%);
 
         h1 {
-            color: #F0F0F0;
+            color: $color-light;
+            font-size: 1.5rem;
+            font-weight: 400;
         }
     }
 }

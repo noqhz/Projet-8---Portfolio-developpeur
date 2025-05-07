@@ -1,3 +1,5 @@
+@use '../../styles/variables' as *;
+
 .footer {
   position: relative;
   bottom: 0;
@@ -8,14 +10,14 @@
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  background-color: #282c34;
-  color: #fff;
+  background-color: $color-head;
+  color: $color-light;
   box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 
   .copyright,
   .credits {
     font-size: 1rem;
-    color: #ccc;
+    color: $color-gray;
     display: flex;
     align-items: center;
   }
@@ -23,7 +25,7 @@
   .react-link {
     margin-left: 5px;
     text-decoration: none;
-    color: #61dafb;
+    color: $color-rc;
     display: inline-flex;
     align-items: center;
     font-weight: 600;

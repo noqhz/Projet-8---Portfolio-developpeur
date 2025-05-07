@@ -1,3 +1,5 @@
+@use '../../styles/variables' as *;
+
 .modal-overlay {
     position: fixed;
     top: 0;
@@ -19,7 +21,7 @@
   }
   
   .modal-content {
-    background: #e4e4e4;
+    background: $color-modal;
     padding: 2rem;
     padding-top: 1rem;
     border-radius: 8px;
@@ -37,7 +39,8 @@
     }
 
     h2 {
-        color: #2c3e50;
+        color: $color-base;
+        font-weight: 500;
     }
 
     .modal-markdown {
@@ -47,7 +50,7 @@
         text-align: justify;
 
         a {
-            color: #2c3e50;
+            color: $color-base;
             text-decoration: none;
             font-weight: 600;
         }
@@ -59,9 +62,8 @@
         align-items: center;
         width: 150px;
         height: 40px;
-        background-color: #2c3e50;
-        color: #fff;
-        border-radius: 10px;
+        background-color: $color-base;
+        color: $color-light;
         text-decoration: none;
         font-size: 1.2rem;
         font-weight: 600;
@@ -69,7 +71,7 @@
         transition: background-color 0.3s ease;
     
         &:hover {
-          background-color: #7f92a7;
+          background-color: $color-hover;
         }
       }
   }
@@ -81,7 +83,7 @@
     background: none;
     border: none;
     font-size: 25px;
-    color: #526f8d;
+    color: $color-cards;
     font-weight: bold;
     cursor: pointer;
   }

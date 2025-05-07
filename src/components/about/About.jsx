@@ -1,18 +1,18 @@
 import React from 'react';
 import './About.scss';
-import profilePic from '../../images/jf-profile.jpg';
-import cvPDF from '../../data/JulienFRITSCH_CV.pdf';
+import profilePic from '../../images/jf-profile.webp';
+import cvPDF from '../../data/CV_JulienFRITSCH.pdf';
 import pdfIcon from '../../images/icons/pdf-icon.png';
 
 function About() {
   return (
     <section id="about">
       <div className="section-header">
-        <h1>Julien Fritsch</h1>
+        <h1>À propos</h1>
       </div>
       <div className="about-content">
         <img src={profilePic} alt="Julien Fritsch" className="profile-pic" />
-        <h2>Développeur Front-end</h2>
+        <h2>Julien Fritsch - Développeur Front-end</h2>
         <p>En reconversion professionnelle, j'ai suivi une formation de développeur web avec {' '}
             <a
               href="https://openclassrooms.com"
@@ -29,7 +29,7 @@ function About() {
         </p>
         <h3>Compétences</h3>
         <p>
-          Front-end : HTML, CSS, JavaScript, React.js, Sass<br />
+          Front-end : HTML, CSS, JavaScript, React.js, Sass/Scss<br />
           Back-end : Node.js, Express.js, MongoDB<br />
           Outils : VS Code, Git, GitHub, Figma, Postman<br />
           Méthodologies : Agile, Scrum<br />
