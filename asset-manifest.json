@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/Projet-8---Portfolio-developpeur/static/css/main.2454f554.css",
-    "main.js": "/Projet-8---Portfolio-developpeur/static/js/main.1a694ed3.js",
+    "main.css": "/Projet-8---Portfolio-developpeur/static/css/main.b117caf3.css",
+    "main.js": "/Projet-8---Portfolio-developpeur/static/js/main.d4966679.js",
     "static/js/453.a2ae6e5b.chunk.js": "/Projet-8---Portfolio-developpeur/static/js/453.a2ae6e5b.chunk.js",
-    "static/media/jf-profile.jpg": "/Projet-8---Portfolio-developpeur/static/media/jf-profile.a0dbf7c37ac86ad1ba4f.jpg",
     "static/media/p5_1.png": "/Projet-8---Portfolio-developpeur/static/media/p5_1.32f70c606070ada28dbc.png",
     "static/media/p6_1.png": "/Projet-8---Portfolio-developpeur/static/media/p6_1.e2de79c6afdd908fe6f8.png",
     "static/media/p3_2.png": "/Projet-8---Portfolio-developpeur/static/media/p3_2.3ecab9cc28dab6fda6b4.png",
@@ -17,21 +16,22 @@
     "static/media/p6_2.png": "/Projet-8---Portfolio-developpeur/static/media/p6_2.5ef924b78c690e04dddd.png",
     "static/media/p4_3.png": "/Projet-8---Portfolio-developpeur/static/media/p4_3.9504dcf4b9b55fe22b72.png",
     "static/media/p4_2.png": "/Projet-8---Portfolio-developpeur/static/media/p4_2.6519d6a264df38fe2117.png",
-    "static/media/JulienFRITSCH_CV.pdf": "/Projet-8---Portfolio-developpeur/static/media/JulienFRITSCH_CV.002c102817a226341ae6.pdf",
+    "static/media/CV_JulienFRITSCH.pdf": "/Projet-8---Portfolio-developpeur/static/media/CV_JulienFRITSCH.fb96356bbacb04d5afde.pdf",
     "static/media/p6_3.png": "/Projet-8---Portfolio-developpeur/static/media/p6_3.f23dc3211b7fafc679df.png",
     "static/media/p2_3.png": "/Projet-8---Portfolio-developpeur/static/media/p2_3.1178faf87e384a733e46.png",
     "static/media/p3_4.png": "/Projet-8---Portfolio-developpeur/static/media/p3_4.2bfa6fc2f3e69ebf0153.png",
+    "static/media/jf-profile.webp": "/Projet-8---Portfolio-developpeur/static/media/jf-profile.ace71364237e7f7e15d9.webp",
     "index.html": "/Projet-8---Portfolio-developpeur/index.html",
     "static/media/Github.svg": "/Projet-8---Portfolio-developpeur/static/media/Github.22e65707326e3e1e37afd21c5334995a.svg",
     "static/media/Linkedin.svg": "/Projet-8---Portfolio-developpeur/static/media/Linkedin.6c4cf675bac00f660170b1e417dc1102.svg",
     "static/media/Phone.svg": "/Projet-8---Portfolio-developpeur/static/media/Phone.dc807bcec0cc28e131a2850058a11dd8.svg",
     "static/media/Mail.svg": "/Projet-8---Portfolio-developpeur/static/media/Mail.0f121a27c547576e81dd31842b443d32.svg",
-    "main.2454f554.css.map": "/Projet-8---Portfolio-developpeur/static/css/main.2454f554.css.map",
-    "main.1a694ed3.js.map": "/Projet-8---Portfolio-developpeur/static/js/main.1a694ed3.js.map",
+    "main.b117caf3.css.map": "/Projet-8---Portfolio-developpeur/static/css/main.b117caf3.css.map",
+    "main.d4966679.js.map": "/Projet-8---Portfolio-developpeur/static/js/main.d4966679.js.map",
     "453.a2ae6e5b.chunk.js.map": "/Projet-8---Portfolio-developpeur/static/js/453.a2ae6e5b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2454f554.css",
-    "static/js/main.1a694ed3.js"
+    "static/css/main.b117caf3.css",
+    "static/js/main.d4966679.js"
   ]
 }
