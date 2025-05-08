@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Projet-8---Portfolio-developpeur/static/css/main.b117caf3.css",
-    "main.js": "/Projet-8---Portfolio-developpeur/static/js/main.d4966679.js",
+    "main.css": "/Projet-8---Portfolio-developpeur/static/css/main.904c9b72.css",
+    "main.js": "/Projet-8---Portfolio-developpeur/static/js/main.3cca1589.js",
     "static/js/453.a2ae6e5b.chunk.js": "/Projet-8---Portfolio-developpeur/static/js/453.a2ae6e5b.chunk.js",
     "static/media/p5_1.png": "/Projet-8---Portfolio-developpeur/static/media/p5_1.32f70c606070ada28dbc.png",
     "static/media/p6_1.png": "/Projet-8---Portfolio-developpeur/static/media/p6_1.e2de79c6afdd908fe6f8.png",
@@ -21,17 +21,18 @@
     "static/media/p2_3.png": "/Projet-8---Portfolio-developpeur/static/media/p2_3.1178faf87e384a733e46.png",
     "static/media/p3_4.png": "/Projet-8---Portfolio-developpeur/static/media/p3_4.2bfa6fc2f3e69ebf0153.png",
     "static/media/jf-profile.webp": "/Projet-8---Portfolio-developpeur/static/media/jf-profile.ace71364237e7f7e15d9.webp",
+    "static/media/pdf-icon.svg": "/Projet-8---Portfolio-developpeur/static/media/pdf-icon.87f6668b0f5bf12d4ee4aab1783340b6.svg",
     "index.html": "/Projet-8---Portfolio-developpeur/index.html",
     "static/media/Github.svg": "/Projet-8---Portfolio-developpeur/static/media/Github.22e65707326e3e1e37afd21c5334995a.svg",
     "static/media/Linkedin.svg": "/Projet-8---Portfolio-developpeur/static/media/Linkedin.6c4cf675bac00f660170b1e417dc1102.svg",
     "static/media/Phone.svg": "/Projet-8---Portfolio-developpeur/static/media/Phone.dc807bcec0cc28e131a2850058a11dd8.svg",
     "static/media/Mail.svg": "/Projet-8---Portfolio-developpeur/static/media/Mail.0f121a27c547576e81dd31842b443d32.svg",
-    "main.b117caf3.css.map": "/Projet-8---Portfolio-developpeur/static/css/main.b117caf3.css.map",
-    "main.d4966679.js.map": "/Projet-8---Portfolio-developpeur/static/js/main.d4966679.js.map",
+    "main.904c9b72.css.map": "/Projet-8---Portfolio-developpeur/static/css/main.904c9b72.css.map",
+    "main.3cca1589.js.map": "/Projet-8---Portfolio-developpeur/static/js/main.3cca1589.js.map",
     "453.a2ae6e5b.chunk.js.map": "/Projet-8---Portfolio-developpeur/static/js/453.a2ae6e5b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b117caf3.css",
-    "static/js/main.d4966679.js"
+    "static/css/main.904c9b72.css",
+    "static/js/main.3cca1589.js"
   ]
 }
