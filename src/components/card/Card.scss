@@ -16,6 +16,10 @@
   overflow: hidden;
   box-sizing: border-box;
 
+  @media (max-width: $tablet) {
+    height: 270px;
+  }
+
   &:hover {
     box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.3);
     background-color: $color-hover;
@@ -27,6 +31,10 @@
     height: 300px;
     object-fit: cover;
     display: block;
+
+    @media (max-width: $tablet) {
+      height: 200px;
+    }
   }
 
   .card-content {
@@ -37,9 +45,21 @@
     box-sizing: border-box;
   }
 
+  p {
+    @media (max-width: $tablet) {
+      font-size: 0.7rem;
+      margin: 0.2rem 0.5rem;
+      padding: 0.2rem 0.5rem;
+    }
+  }
+
   .card-title {
     font-size: 1.2rem;
     font-weight: 500;
     margin: 0;
+
+    @media (max-width: $tablet) {
+      font-size: 1.0rem;
+    }
   }
 }

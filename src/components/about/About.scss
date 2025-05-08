@@ -11,6 +11,11 @@
       width: 50%;
       margin: 0 auto;
 
+      @media (max-width: $tablet) {
+        margin: 0 50px;
+        width: auto;
+      }
+
       .profile-pic {
         border-radius: 50%;
         object-fit: cover;

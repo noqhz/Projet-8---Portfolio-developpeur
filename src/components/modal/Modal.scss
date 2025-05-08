@@ -25,14 +25,21 @@
     padding: 2rem;
     padding-top: 1rem;
     border-radius: 8px;
-    width: 900px;
-    height: 700px;
+    max-width: 900px;
+    max-height: 700px;
+    width: 100%;
+    height: 100%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
     box-sizing: border-box;
     text-align: center;
     transform: translateX(-1500px);
     animation: roadRunnerIn 0.3s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+
+    @media (max-width: $tablet) {
+        max-width: 600px;
+        max-height: 700px;
+    }
 
     &.out {
         animation: roadRunnerOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
@@ -41,6 +48,10 @@
     h2 {
         color: $color-base;
         font-weight: 500;
+
+        @media (max-width: $tablet) {
+            margin : 1em 0;
+        }
     }
 
     .modal-markdown {
@@ -48,6 +59,10 @@
         max-width: 600px;
         margin: 1em auto;
         text-align: justify;
+
+        @media (max-width: $tablet) {
+            max-width: 420px;
+        }
 
         a {
             color: $color-base;

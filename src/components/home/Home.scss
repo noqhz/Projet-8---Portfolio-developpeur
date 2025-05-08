@@ -6,6 +6,14 @@
     max-width: $desktop;
     margin: 0 auto;
 
+    section {
+        scroll-margin-top: 80px;
+
+        @media (max-width: $tablet) {
+            scroll-margin-top: 60px;
+          }
+        }
+    
     .section-header {
         display: flex;
         align-items: center;

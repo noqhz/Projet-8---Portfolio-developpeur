@@ -2,7 +2,7 @@ import React from 'react';
 import './About.scss';
 import profilePic from '../../images/jf-profile.webp';
 import cvPDF from '../../data/CV_JulienFRITSCH.pdf';
-import pdfIcon from '../../images/icons/pdf-icon.png';
+import pdfIcon from '../../images/icons/pdf-icon.svg';
 
 function About() {
   return (
