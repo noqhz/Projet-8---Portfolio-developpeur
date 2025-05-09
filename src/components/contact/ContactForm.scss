@@ -32,5 +32,9 @@
       &:hover:not(:disabled) {
         background-color: $color-cards;
       }
+
+      @media (max-width: $mobile) {
+        margin-bottom: 2rem; 
+      }
     }
   }

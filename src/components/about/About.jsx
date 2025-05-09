@@ -12,7 +12,7 @@ function About() {
       </div>
       <div className="about-content">
         <img src={profilePic} alt="Julien Fritsch" className="profile-pic" />
-        <h2>Julien Fritsch - Développeur Front-end</h2>
+        <h2>Julien Fritsch&nbsp;<br />-&nbsp;<br />Développeur&nbsp;<br />Front-end</h2>
         <p>En reconversion professionnelle, j'ai suivi une formation de développeur web avec {' '}
             <a
               href="https://openclassrooms.com"

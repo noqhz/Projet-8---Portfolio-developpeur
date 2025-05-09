@@ -16,15 +16,50 @@
         width: auto;
       }
 
+      @media (max-width: $mobile) {
+        margin: 0 20px;
+        width: auto;
+      }
+
       .profile-pic {
         border-radius: 50%;
         object-fit: cover;
         margin-bottom: 20px;
         border: 2px solid $color-gray;
+
+        @media (max-width: $tablet) {
+          width: 150px;
+          height: 150px;
+        }
+
+        @media (max-width: $mobile) {
+          width: 120px;
+          height: 120px;
+        }
       }
 
-      h2, h3 {
+      h2 {
         color: $color-base;
+
+        @media (max-width: $mobile) {
+          font-size: 1.3rem;
+        }
+      }
+
+      h2 br {
+        display: none;
+
+        @media (max-width: $mobile) {
+          display: block;
+        }
+      }
+
+      h3 {
+        color: $color-base;
+
+        @media (max-width: $mobile) {
+          font-size: 1.1rem;
+        }
       }
 
       p {
@@ -42,6 +77,10 @@
         display: flex;
         gap: 15px;
         margin-top: 20px;
+
+        @media (max-width: $mobile) {
+          flex-direction: column;
+        }
 
         a {
           display: flex;

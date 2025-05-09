@@ -41,6 +41,13 @@
         max-height: 700px;
     }
 
+    @media (max-width: $mobile) {
+        max-width : 90%;
+        max-height : 80%;
+        padding: 1rem;
+        overflow-y: auto;
+    }
+
     &.out {
         animation: roadRunnerOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
     }
@@ -51,6 +58,12 @@
 
         @media (max-width: $tablet) {
             margin : 1em 0;
+            font-size: 1.4rem;
+        }
+
+        @media (max-width: $mobile) {
+            margin-top : 1.5em;
+            font-size : 1.2rem;
         }
     }
 
@@ -62,6 +75,12 @@
 
         @media (max-width: $tablet) {
             max-width: 420px;
+        }
+
+        @media (max-width: $mobile) {
+            font-size: 0.9rem;
+            padding: 0.5rem;
+            margin: 1em 1em;
         }
 
         a {
@@ -87,6 +106,10 @@
     
         &:hover {
           background-color: $color-hover;
+        }
+
+        @media (max-width: $mobile) {
+            margin-bottom: 1em;
         }
       }
   }

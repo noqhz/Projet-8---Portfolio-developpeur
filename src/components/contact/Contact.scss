@@ -12,6 +12,10 @@
   width: 80%;
   margin: 0 auto 2rem;
 
+  @media (max-width: $mobile) {
+    flex-direction: column;
+  }
+
   .contact-info {
     flex: 1;
     display: flex;
@@ -24,6 +28,10 @@
 
     @media (max-width: $tablet) {
       padding-left: 2rem;
+    }
+
+    @media (max-width: $mobile) {
+      padding-left: 0;
     }
 
     .contact-icon {
@@ -64,6 +72,14 @@
 
     @media (max-width: $tablet) {
       padding-right: 2rem;
+    }
+
+    @media (max-width: $mobile) {
+      padding-right: 0;
+      border-right: none;
+
+      border-bottom: 1px solid $color-base;
+      margin-bottom: 2rem; 
     }
   }
 }
