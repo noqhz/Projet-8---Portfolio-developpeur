@@ -13,7 +13,11 @@ function Card({ image, images, title, description, link, tools }) {
   return (
     <>
       <div className="card" onClick={handleOpenModal}>
-        <img src={image} alt={title} className="card-image" />
+        <img 
+          src={image} 
+          alt={title ? `Aperçu du projet ${title}` : ''} 
+          className="card-image" 
+        />
         <div className="card-content">
           <h2 className="card-title">{title}</h2>
           <p className="card-description">{tools}</p>

@@ -18,6 +18,7 @@ function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit} className="contact-form">
+      <label htmlFor="email" className="hidden">Adresse e-mail</label>
       <input
         id="email"
         type="email"
@@ -27,6 +28,7 @@ function ContactForm() {
       />
       <ValidationError prefix="Email" field="email" errors={state.errors} />
 
+      <label htmlFor="message" className="hidden">Votre message</label>
       <textarea
         id="message"
         name="message"

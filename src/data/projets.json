@@ -1,9 +1,9 @@
 [
   {
     "images": [
-      { "src": "p2_1.png", "name": "Format desktop" },
-      { "src": "p2_2.png", "name": "Format tablette" },
-      { "src": "p2_3.png", "name": "Format mobile" }
+      { "src": "p2_1.webp", "name": "Format desktop" },
+      { "src": "p2_2.webp", "name": "Format tablette" },
+      { "src": "p2_3.webp", "name": "Format mobile" }
     ],
     "title": "Page d'accueil d'une agence de voyage",
     "tools": "HTML, CSS",
@@ -12,10 +12,10 @@
   },
   {
     "images": [
-      { "src": "p3_1.png", "name": "Page d'accueil - affichage dynamique des projets" },
-      { "src": "p3_2.png", "name": "Modale : suppression de projets" },
-      { "src": "p3_3.png", "name": "Modale : ajout de projets" },
-      { "src": "p3_4.png", "name": "Interface swagger (back-end)" }
+      { "src": "p3_1.webp", "name": "Page d'accueil - affichage dynamique des projets" },
+      { "src": "p3_2.webp", "name": "Modale : suppression de projets" },
+      { "src": "p3_3.webp", "name": "Modale : ajout de projets" },
+      { "src": "p3_4.webp", "name": "Interface swagger (back-end)" }
     ],
     "title": "Site d'architecte dynamique avec JavaScript",
     "tools": "HTML, CSS, JavaScript",
@@ -24,9 +24,9 @@
   },
   {
     "images": [
-      { "src": "p4_1.png", "name": "Site à débugger" },
-      { "src": "p4_2.png", "name": "Rapport Ligthouse avant optimisation" },
-      { "src": "p4_3.png", "name": "Rapport WAVE avant/après" }
+      { "src": "p4_1.webp", "name": "Site à débugger" },
+      { "src": "p4_2.webp", "name": "Rapport Ligthouse avant optimisation" },
+      { "src": "p4_3.webp", "name": "Rapport WAVE avant/après" }
     ],
     "title": "Débug et optimisation d'un site de photographe",
     "tools":"SEO, Accessibilité, Performances",
@@ -35,9 +35,9 @@
   },
   {
     "images": [
-      { "src": "p5_1.png", "name": "Page d'accueil - annonces sous forme de cards" },
-      { "src": "p5_2.png", "name": "Page logement : composants slideshow, collapse" },
-      { "src": "p5_3.png", "name": "Page à propos : composants banner, collapse" }
+      { "src": "p5_1.webp", "name": "Page d'accueil - annonces sous forme de cards" },
+      { "src": "p5_2.webp", "name": "Page logement : composants slideshow, collapse" },
+      { "src": "p5_3.webp", "name": "Page à propos : composants banner, collapse" }
     ],
     "title": "Application web de location immobilière",
     "tools": "React, SCSS",
@@ -46,9 +46,9 @@
   },
   {
     "images": [
-      { "src": "p6_1.png", "name": "Page d'accueil : affichage des livres" },
-      { "src": "p6_2.png", "name": "Modification et/ou suppression de livres" },
-      { "src": "p6_3.png", "name": "Base de données MongoDB Atlas (schéma book)" }
+      { "src": "p6_1.webp", "name": "Page d'accueil : affichage des livres" },
+      { "src": "p6_2.webp", "name": "Modification et/ou suppression de livres" },
+      { "src": "p6_3.webp", "name": "Base de données MongoDB Atlas (schéma book)" }
     ],
     "title": "Back-end d'un site de notation de livres",
     "tools": "Node.js, Express, MongoDB",
