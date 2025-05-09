@@ -13,7 +13,7 @@ function Header() {
   };
 
   const refreshPage = () => {
-    window.location.href = '/Projet-8---Portfolio-developpeur/';
+    window.location.href = '/portfolio/';
   };
 
   return (

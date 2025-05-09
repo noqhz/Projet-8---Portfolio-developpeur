@@ -2,7 +2,7 @@
   "name": "portfolio-jf",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://noqhz.github.io/Projet-8---Portfolio-developpeur",
+  "homepage": "https://noqhz.github.io/portfolio/",
   "dependencies": {
     "@formspree/react": "^3.0.0",
     "@testing-library/dom": "^10.4.0",
