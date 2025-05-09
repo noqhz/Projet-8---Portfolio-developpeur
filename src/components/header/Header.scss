@@ -40,6 +40,7 @@ header {
         margin: 0;
         padding-left: 2rem;
         white-space: nowrap;
+        cursor: pointer;
 
         @media (max-width: $tablet) {
           padding-left: 0;

@@ -12,11 +12,15 @@ function Header() {
     setIsMenuOpen(false);
   };
 
+  const refreshPage = () => {
+    window.location.href = '/Projet-8---Portfolio-developpeur/';
+  };
+
   return (
     <header>
       <nav>
         <div className="nav-left">
-          <h1>Julien Fritsch</h1>
+          <h1 onClick={refreshPage}>Julien Fritsch</h1>
         </div>
         <div className={`nav-right ${isMenuOpen ? 'menu-open' : ''}`}>
           <button className="hamburger" onClick={toggleMenu}>

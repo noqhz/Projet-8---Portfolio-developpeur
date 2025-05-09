@@ -1,5 +1,9 @@
 @use 'styles/variables' as *;
 
+html {
+    overflow-x: hidden;
+}
+
 html, body {
   @media (max-width: $mobile) {
     overflow-x: hidden;
